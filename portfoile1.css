@@ -1,0 +1,69 @@
+#title{
+    text-transform: uppercase;
+    color:grey;
+    text-align: right;
+    font-size:6vw; 
+    margin:0.5%; 
+    display: grid;
+}
+#sub-title{
+    text-transform: uppercase;
+    color:grey;
+    text-align: right;
+    font-size:2vw;
+    margin:0.5%;
+    display: grid;
+}
+.logo{
+    width: 12%;
+    height: auto;
+    position: absolute;
+    top: 1%;
+}
+.image-box{
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+}
+.line{
+    width: 100%;
+    margin: 3%
+}
+.type{
+    margin:4%;
+    color: rgb(252, 164, 137);
+    font-size:4vw; 
+}
+.column{
+    height: auto;
+    float: right;
+    max-width: 30%;
+    padding: 5px;
+    margin: 0.5%;
+    flex-wrap: nowrap;
+    display: grid;
+}
+.first-box{
+    width: 100%;
+}
+.sec-boxes{
+    width: 100%;
+}
+.third-box{
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.paragraph{
+    height: 40px;
+    text-align: left;
+    font-size: 2vw;
+    color: red;
+    margin: 0.5%;
+    display: grid;   
+    margin: auto;
+}
